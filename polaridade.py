@@ -51,4 +51,7 @@ def evaluate_classifier(featx, sentences):
             observed.append(classifierME.classify(feats))
             print s, observed
                     	
-evaluate_classifier(word_feats,['Queda de poste na Av. Sertório x R. Diamantina. Av Sertório sentido C/B totalmente bloqueada. Agentes da EPTC no local.','Não há mais manifestações na Est. Afonso Lourenço Mariante. Trânsito fluindo sem problemas.','Não use o celular ao volante, 80% da sua atenção é desviada.'])
+sentences = ['Queda de poste na Av. Sertório x R. Diamantina. Av Sertório sentido C/B totalmente bloqueada. Agentes da EPTC no local.', \
+            'Não há mais manifestações na Est. Afonso Lourenço Mariante. Trânsito fluindo sem problemas.', \
+            'Não use o celular ao volante, 80% da sua atenção é desviada.']
+evaluate_classifier(word_feats,sentences)
