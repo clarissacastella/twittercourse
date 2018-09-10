@@ -1,0 +1,18 @@
+07h47 - Direto das câmeras da EPTC: Trânsito carregado na região do Terminal Triângulo no acesso para a Av. Assis B… https://t.co/yPGdW92luu 
+[(68,86,'LOC'), (104,113,'LOC')]
+07h41 - Veículo removido. Trânsito segue complicado e com alguns pontos de lentidão próx. a Av. Sertório e a Arena… https://t.co/C8DPFnzi5g 
+[(92,104,'LOC'), (109,114,'LOC')]
+07h16 - Carro em pane mecânica deixa trânsito lento logo no início da manhã pela Av da Legalidade e da Democracia q… https://t.co/DMUowKJUbR 
+[(81,113,'LOC')]
+07h10 - Bom dia! Movimentação é carregada na Av. da Legalidade e da Democracia nessa sexta, 20, mas não ocorre lent… https://t.co/vwPmqhe6pF 
+[(45,78,'LOC')]
+19h - EPTC informa trânsito e transporte para Grêmio x Atlético-PR, previsto para domingo, 22, às 19h na Arena. Par… https://t.co/EsUwHigV2N 
+[(105,110,'LOC')]
+18h50 - Em continuidade ao calendário de atividades comemorativas ao aniversário da EPTC, acontece neste sábado, 21… https://t.co/SVgsVTIvB5 
+[]
+⚠️ATENÇÃO⚠️ https://t.co/xLcdIDxM9b 
+[] 
+18h27 - Região central da capital também apresenta trânsito bem acentuado neste fim de tarde. Maiores fluxos: ; - Siq… https://t.co/JVJZyDpH2B 
+[(0,104,'LOC')]
+12h52 - EPTC informa trânsito e transporte para Grêmio x Atlético-PR, previsto para domingo, 22, às 19h na Arena. P… https://t.co/Q8SRn7Hpl6
+[(107,112,'LOC')]
