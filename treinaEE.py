@@ -31,11 +31,12 @@ n_iter = 2 #nro iteracoes
 for itn in range(n_iter):
     c = 0
     losses = {}        
+    random.shuffle(dados_treino) #embaralha para nao viciar
     for text, annotations in dados_treino:
         c = c + 1
         nlp.update(
-            [unicode(text)],  # batch de textos
-            [annotations],  # batch de anotacoes
+            [unicode(text)],  # batch de textos 
+            [annotations],  # batch de anotacoes correspondentes aos textos
             drop=0.25,
             sgd=optimizer,
             losses=losses)
