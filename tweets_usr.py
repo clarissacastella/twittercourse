@@ -2,11 +2,11 @@ import urllib
 import oauth2 
 import json
 
-CHAVE_CONSUMO =	'42Mxxxxxxxx1B'
-TOKEN_CONSUMO =	'h2xxxxxKL4rp'
+CHAVE_CONSUMO = '42Mxxxxxxxx1B'
+TOKEN_CONSUMO = 'h2xxxxxKL4rp'
 
-CHAVE_ACESSO =	'35xxxxxxxxxxxxYIe'
-TOKEN_ACESSO =	'6xxxxxxxxoO'
+CHAVE_ACESSO =  '35xxxxxxxxxxxxYIe'
+TOKEN_ACESSO =  '6xxxxxxxxoO'
 
 def oauth_req(url, CHAVE_ACESSO, TOKEN_ACESSO, http_method="GET", post_body="", http_headers=None):
     token = oauth2.Token(key=CHAVE_ACESSO, secret=TOKEN_ACESSO)
@@ -17,10 +17,12 @@ def oauth_req(url, CHAVE_ACESSO, TOKEN_ACESSO, http_method="GET", post_body="", 
     return conteudo
 
 
-def info_usr(usuario):
-    GET_USR_URL = "https://api.twitter.com/1.1/users/show.json?screen_name="+usuario
+def tweets_usr(usuario):
+    GET_USR_URL = "https://api.twitter.com/1.1/statuses/user_timeline.json?count=1&screen_name="+usuario
     req = oauth_req(GET_USR_URL,TOKEN_ACESSO,CHAVE_ACESSO)
     return req
 
-d = json.loads( info_usr('twitterbrasil'))
+d = json.loads(tweets_usr('twitterbrasil'))
+
 print json.dumps(d, indent=4, sort_keys=True)
+
