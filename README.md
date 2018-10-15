@@ -1,4 +1,4 @@
-# twittercourse
+# Extração e Classificação de Dados Semânticos do Twitter
 
 Arquivos auxiliares relacionados ao curso _Extração e Classificação de Dados Semânticos do Twitter_ apresentado no WebMedia 2018.
 
