@@ -8,9 +8,9 @@ def divide(dados):
     for palavra in dados:
         palavra_filter = [i.lower() for i in palavra.split()]
         dados_new.append(palavra_filter)
-    return dados_new[0]
+    return dados_new
 
-def bag_of_words(palavras):    
+def bag_of_words(palavras):
     return dict([(palavra, palavras.count(palavra)) for palavra in palavras])
     
     
@@ -58,7 +58,7 @@ def classifica(sentencas, classificadores):
 ######## MAIN                    	
 classificadores = treina_classificadores()
 
-sentences = ['Fluxo muito congestionado na Osvaldo Aranha no acesso para o Túnel. Agora, tá chovendo também. Então, atenção!', \
+sentences = ['Fluxo muito congestionado.', \
             'Não use o celular ao volante, 80% da sua atenção é desviada.']
 
 print sentences            
