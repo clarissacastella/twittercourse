@@ -5,3 +5,6 @@ Arquivos auxiliares relacionados ao curso _Extração e Classificação de Dados
 Referência:
 
 XAVIER, C. C. ; SOUZA, M. 2018. Extração e Classificação de Dados Semânticos do Twitter. In Livro de Minicursos do Webmedia 2018. XXIV Simpósio Brasileiro de Sistemas Multimídia e Web. To be published.
+
+Apresentação:
+[https://sites.google.com/site/clarissacastella/publ/curso%20webmedia.pdf]
